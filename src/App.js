@@ -35,7 +35,7 @@ function App() {
         </div>
       </div>
     </div>
-    <div id="portfolio" class=" h-[310vh] grid">
+    <div id="portfolio" class=" h-[310vh] grid relative">
       <div class="text-right mr-[15rem] text-orange-600 text-3xl font-mono font-bold">Portfolio</div>
       <a href="">
         <img class="h-[35rem] ml-12 hover:shadow-xl" src={maddux}/>
@@ -50,7 +50,7 @@ function App() {
         <img class="h-[35rem] mt-[10rem] ml-[30rem] hover:shadow-xl" src={mius}/>
       </a>
     </div>
-    <div class="h-[40rem] grid grid-cols-7 items-center justify-items-center">
+    <div class="h-[40rem] grid grid-cols-7 items-center justify-items-center relative">
       <div></div>
       <div></div>
       <a href="https://www.linkedin.com/in/trisha-narwekar/">
